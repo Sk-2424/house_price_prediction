@@ -6,7 +6,7 @@ Check it out - https://sk-house-prediction.el.r.appspot.com/
 <br>
 In the input we have to provide 12 different parameters which helps in predicting the house cost price
 <br>
-<b>The parameters are <b> 
+<b>The parameters are </b> 
     <P>
         Attribute Information (in order):<br>
         - CRIM     per capita crime rate by town
@@ -25,3 +25,9 @@ In the input we have to provide 12 different parameters which helps in predictin
         - LSTAT    % lower status of the population<br>
         - MEDV     Median value of owner-occupied homes in $1000's<br>
     </P>
+
+On the landing page we have to enter the attributes value
+![image](https://user-images.githubusercontent.com/87670223/156893516-8e3f45f3-9572-44cf-a5e8-74b27d53592e.png)
+
+The result will be displayed on the next page
+![image](https://user-images.githubusercontent.com/87670223/156893549-8c4ab233-b454-48f2-a389-3e5c3094bcc9.png)
