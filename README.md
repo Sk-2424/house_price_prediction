@@ -2,9 +2,11 @@
 
 It is a simple mini project for house price prediction on the sklearn Boston data set. This application is created on Flask framework.
 <br>
+Check it out - https://sk-house-prediction.el.r.appspot.com/
+<br>
 In the input we have to provide 12 different parameters which helps in predicting the house cost price
 <br>
-The parameters are 
+<b>The parameters are <b> 
     <P>
         Attribute Information (in order):<br>
         - CRIM     per capita crime rate by town
