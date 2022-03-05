@@ -4,6 +4,7 @@ from flask import Flask, render_template, request,jsonify
 from flask_cors import CORS,cross_origin
 import pickle
 import numpy as np
+
 app = Flask(__name__) # initializing a flask app
 
 @app.route('/',methods=['GET'])  # route to display the home page
@@ -36,6 +37,8 @@ def index():
             prediction=loaded_model.predict([[CRIM,ZN,INDUS,CHAS,NOX,RM,AGE,DIS,RAD,TAX,PTRATIO,B,LSTAT]])
             #print('prediction is', prediction)
             # showing the prediction results in a UI
+            # pred = round(float(1000*prediction[0]),3)
+            # prediction = str(1000*prediction[0])[1:8]
             prediction = str(np.round(1000*prediction[0],4)).lstrip('[').rstrip(']')
             return render_template('results.html',prediction=prediction)
         except Exception as e:
