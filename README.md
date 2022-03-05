@@ -3,6 +3,7 @@
 It is a simple mini project for house price prediction on the sklearn Boston data set. This application is created on Flask framework.
 <br>
 In the input we have to provide 12 different parameters which helps in predicting the house cost price
+<br>
 The parameters are 
     <P>
         Attribute Information (in order):<br>
